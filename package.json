@@ -1,5 +1,5 @@
 {
-  "name": "chatter",
+  "name": "chatter-demo",
   "private": true,
   "sideEffects": false,
   "type": "module",
