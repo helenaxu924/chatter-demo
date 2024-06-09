@@ -4,8 +4,8 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc"
@@ -17,6 +17,7 @@
     "@remix-run/serve": "^2.9.2",
     "@supabase/auth-helpers-remix": "^0.4.0",
     "@supabase/supabase-js": "^2.43.4",
+    "@vercel/remix": "^2.9.2-patch.2",
     "isbot": "^4.1.0",
     "node": "^20.14.0",
     "react": "^18.2.0",
