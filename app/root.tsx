@@ -70,7 +70,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <p>Hi</p>
+        <p>Sign into Github for live chat!</p>
         <Outlet context={{ supabase }}/>
         <ScrollRestoration />
         <Scripts />
